@@ -27,3 +27,14 @@ var max = function(list) {
 function maps(x) {
   return (map1 = x.map(x => x * 2));
 }
+
+// https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript?fbclid=IwAR2zaYi8Nv1yeCrLknLcoO-PPYTksoYffO7ODxj-V7V4FR2pknheYpZ9BdI
+
+function firstNonConsecutive(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i + 1] !== arr[i] + 1) {
+      return arr[i + 1];
+    }
+  }
+  return null;
+}
