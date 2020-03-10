@@ -1,3 +1,9 @@
+// https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript?fbclid=IwAR1V1JUTzlAiCOiZIg5BA04DMcICSsJHThKW_wjqxL5a2J1NgUiGHea3hmQ
+
+function stringToArray(string) {
+  return string.split(' ');
+}
+
 // https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript?fbclid=IwAR2kovrpho_c71HBlvmwh0Tj3_K7JYTrCMYXzoulE-Qs3e6Sg_8Mxfol9iQ
 
 function DNAtoRNA(dna) {
