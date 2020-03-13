@@ -55,5 +55,9 @@ function warnTheSheep(queue) {
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript?fbclid=IwAR0wb7fmXBNSemelJKGqyOp6Ua-8Hi473FYTEPSyl-azH8TWFrGt6nXb0zQ
 
 function min(arr, toReturn) {
-  return Math.min(...arr);
+  if (toReturn === 'value') {
+    return Math.min(...arr);
+  } else {
+    return arr.indexOf(Math.min(...arr));
+  }
 }
